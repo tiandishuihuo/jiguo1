@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/jiguo8.css">
+    <script src="./../js/jiguo 8.js"></script>
+    <script src="./../js/art-tamples.js"></script>
+
+</head>
+<body>
+    <div id="box">
+        <!-- 导航栏 -->
+        <div class="nav">
+            <div><img src="../img/logonew.png" alt="" class="logo"></div>
+            <div>
+                <ul>
+                 <li><a href="">首页</a></li>
+                 <li><a href="">酷玩</a></li>
+                 <li><a href="">导购</a></li>
+                 <li><a href="jiguo8.html">试用</a></li>
+                 <li><a href="">报告</a></li>
+                </ul>
+            </div>
+             <div>
+                <div class="deng">
+                    <img src="../img/img/search.png" alt="">
+                    <a href=""><input type="text" value="登录"></a>
+                    <a href="jiguo16.html"><input type="text" value="注册"></a>
+                </div>      
+            </div>
+        </div>
+       </div>
+       <div class="a"><span>免费试用</span></div>
+       <!-- <div class="a_"><span class="b">大众适用</span><span>体验专享</span></div>
+       <div class="b_"></div> -->
+       <div class="c">
+        <div class="a_"><span class="b">大众适用</span><span>体验专享</span></div>
+        <div class="b_"></div>
+       </div>
+       <div class="d_"></div>
+       <div class="e">
+           <a href="" id="e_">全部</a>
+           <a href="jiguo9.html">申请中</a>
+           <a href="">试用中</a>
+           <a href="">已结束</a>
+       </div>
+      
+    <div id="content">
+        <div id="list">
+            
+        </div>
+        <div id="out">
+            <div class="qi"><img src="./more.png" alt="" class="qi_"><a href="" class="qo">向下拉加载更多</a></div>
+        </div>
+       
+    </div> 
+        <footer>
+            <div class="foot">
+                <img src="../img/code.png" alt="" class="img">
+                <ul class="log">
+                    <li><img src="../img/logoImg.jpg" alt=""></li>
+                    <li>全球酷玩试用导购平台酷·新奇·好玩·品质</li>
+                    <li>微信添加“JguoJguo”获取我们的服务。</li>
+                </ul>
+                <ul>
+                    <li class="foot1">免费试用</li>
+                    <li>试用流程</li>
+                       <li>如何提高成功率</li> 
+                </ul>
+                <ul class="log1">
+                    <li class="foot1">友情连接</li>
+                    <li><span>智东西</span><span> WEIBUSI</span></li>
+                       <li><span>搜狐IT</span><span>腾讯科技</span></li>
+                       <li><span>搜狐数码</span><span>凤凰科技</span></li>
+                       <li><span>凤凰数码 </span><span> PConline</span></li>
+                       <li><span>泡泡网</span><span>   3W咖啡</span></li>
+                       <li><span>ZUK社区</span><span>   亿觅emie</span></li>
+                       <li><span>极客公园  </span><span>易迅易启玩</span></li>
+                       <li><span>果库</span></li>   
+                </ul>
+                <ul class="log2">
+                    <li class="foot1">购买攻略</li>
+                    <li>海淘转运攻略</li>
+                    <li>美亚海淘教程</li>
+                    <li>日亚海淘教程</li>
+                    <li>kickstarter 众筹购买攻略</li>
+                    <li>indiegogo 众筹购买攻略</li>
+                </ul>
+                <ul class="log2">
+                    <li class="foot1">厂商合作</li>
+                    <li>关于极果</li>
+                    <li>联系我们</li>
+                    <li>商务合作：BD@jiguo.com</li>
+                    <li>CEO邮箱：CEO@jiguo.com</li>
+                </ul>
+                <div class="di">@2016 极果版权所有</div>
+            </div>
+            
+        </footer>
+     <script type="text/html" id="mb">
+         <div id="aa">
+         {{each value}}
+          <div id="qw">
+
+                <img src={{$value.img}} alt="" class="qw_"> 
+                <p class="qu_"><span class="qu">{{$value.info_ty}}</span></p>
+              
+            <!-- <img src={{$value.img}} alt="" class="qw_">  -->
+            <p class="qe">{{$value.text}}</p>
+            <p class="qr_">
+               <span class="qr">{{$value.totalnum}}</span>
+                <span class="qt">{{$value.num}}</span>
+            </p>
+            <p class="qt_">
+              <span class="qy">{{$value.apply}}</span>
+             <span>申请</span>
+            </p>
+          </div>
+           
+         
+        
+         {{/each}}
+        </div>
+     </script>
+</body>
+</html>

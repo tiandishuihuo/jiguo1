@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    text-decoration: none;
+}
+#box{
+    width: 1423px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    height: 75px;
+    line-height: 75px;
+    font-size: 20px;
+    border-bottom: 3px solid #DCCCC8;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    height: 50px;
+   margin: 12.5px 0px;
+   margin-left: 200px;
+}
+li{
+    float: left;
+    margin: 0px 25px;
+}
+.deng{
+    float: right;
+    margin-right: 100px;
+    overflow: hidden;
+}
+.deng img{
+    margin-top:25px;
+    position: absolute;
+     right: 220px;
+}
+.deng input{
+    width: 50px;
+    height: 30px;
+    border: 1px solid #F8573D;
+    border-radius:5px;
+    font-size: 20px;
+    color: #E44530;
+    text-align: center;
+}
+
+.foot{
+    height: 360px;
+    background-color: #505050;
+    color: #9C9D98;
+    font-size: 12px;
+}
+.foot ul{
+    width: 140px;
+    float: left;
+}
+.img{
+    float: left;
+    margin: 40px 0px 0px 200px;
+}
+.log{
+ margin: 40px 40px 0px 20px;  
+}
+.log img{
+    margin-bottom: 20px;
+}
+.log li{
+    width: 140px;
+    margin: 10px 0px;
+}
+.foot1{
+    font-size: 16px;
+    color: #fff;
+    margin: 40px 38px 30px 25px ;
+   
+}
+.foot li{
+ margin-bottom: 8px;
+}
+.log1 li{
+ width: 140px;
+
+}
+.log1 span{
+    display: inline-block;
+    width: 50%;
+}
+.log2 li{
+    width: 170px;
+}
+.di{
+    position: relative;
+    top: 340px;
+    left:-500px;
+}
+.a{
+    margin-top: 20px;
+    margin-left: 600px;
+    /* margin:auto; */
+}
+.a>span{
+    color:black;
+    font-size: 30px;
+}
+.a_{
+    margin-top:20px;
+    margin-left:560px ;
+}
+.a_>span{
+    margin-left: 20px;
+}
+.b{
+    color:red;
+}
+.b_{
+    width:120px;
+    height:2px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: 560px;
+}
+.c{
+    width:100%;
+    height:33px;
+    border:1px solid gray;
+    border-top: none;
+}
+.c_{
+    float:left;
+    overflow: hidden;
+}
+.d{
+    float: left;
+    overflow: hidden;
+    width:220px;
+    height:285px;
+    margin-left: 120px;
+    margin-top:15px;
+
+}
+.d_{
+    width:1000px;
+    background-color: gray;
+    margin-top: 20px;
+}
+#list{
+    overflow: hidden;
+    background-color:#F7F7F7;
+    width:100%;
+}
+.e{
+   margin-left:400px;; 
+}
+.e>a{
+    margin-left:70px;
+    color:gray;
+}
+#e_{
+    color:black;
+}
+.qw{
+    color:red;
+}
+#aa{
+    overflow: hidden;
+    width:1000px;
+    margin-left: 212px;
+}
+#qw{
+    width:233px;
+    height:291px;
+    float: left;
+    margin-left:15px;
+    position: relative;
+}
+.qw_{
+    width:219px;
+    height:129px;
+}
+.qe{
+    position: absolute;
+    left:140px;
+    display: inline-block;
+    width:80px;
+    height:30px;
+    background-color:rgb(248, 241, 199);
+    color:gray;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.qr{
+    height:45px;
+}
+.qr_{
+    width:40px;
+    height:25px;
+    border:1px solid rgb(204, 204, 204);
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.qt{
+    width:40px;
+    height:25px;
+    border:1px solid rgb(204, 204, 204);
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.qt_{
+    margin-left:55px ;
+}
+.qy{
+    color:red;
+    margin-left:62px;
+    margin-top: 11px;
+}
+.qy>span{
+    color:black;
+}
+#out{
+    width:100%;
+    height:80px;
+    background-color: #F7F7F7;
+}
+.qo{
+    margin-left:663px ;
+    color:gray;
+    margin-bottom:20px;
+}
